@@ -1,0 +1,251 @@
+.container-modal-pathway-qualify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    margin: 0 !important;
+    max-width: none !important;
+    width: 100%;
+}
+
+.modal-pathway-qualify {
+    box-sizing: border-box;
+    background: #fff;
+    width: 50% !important;
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+.modal-pathway-qualify__body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 3% 4% !important;
+}
+
+.modal-pathway-qualify__close {
+    font-size: 20px;
+    text-align: center;
+    width: 22px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    font-weight: 900;
+}
+
+.modal-pathway-qualify__close:hover {
+    background-color: #fff;
+    color: #f44336;
+}
+
+.modal-pathway-qualify__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.modal-pathway-qualify__container-text {
+    margin-top: 1rem;
+}
+
+.modal-pathway-qualify__text {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.modal-pathway-qualify__starts {
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+    margin: 2% 0;
+}
+
+.modal-pathway-qualify__start {
+    font-size: 30px;
+    margin: 0 1%;
+}
+
+.modal-pathway-qualify__start path {
+    stroke: #FFD058;
+    stroke-width: 50px;
+    color: #fff;
+}
+
+.modal-pathway-qualify__start-background {
+    stroke: none !important;
+    color: #FFD058 !important;
+    cursor: pointer !important;
+}
+
+.modal-pathway-qualify__start-background-click {
+    stroke: none !important;
+    color: #FFD058 !important;
+    cursor: pointer !important;
+}
+
+.modal-pathway-qualify__textarea {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    height: 90px;
+    min-height: 20%;
+    border-radius: 10px;
+    margin: 0 auto;
+    resize: none;
+    background: #C8C5C5;
+    border: none;
+}
+
+.modal-pathway-qualify__textarea:focus {
+    outline: 2px solid #A2A2A2;
+}
+
+.modal-pathway-qualify__textarea::placeholder {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.modal-pathway-qualify__error {
+    text-align: center;
+    font-size: 12px;
+    color: #f44336;
+    margin-bottom: 0;
+}
+
+.modal-pathway-qualify_button {
+    height: 2.8rem;
+    color: #fff;
+    width: 25%;
+    background: #090947;
+    border-radius: 20px;
+    font-weight: 550;
+    border: none;
+    box-shadow: 0px 4px 5px 0 #000;
+    margin-top: 2%;
+}
+
+.modal-pathway-qualify_button:hover {
+    border: 1.5px solid #6AC3EC;
+}
+
+.modal-pathway-qualify_button:disabled {
+    background: #DDDDEA;
+    border: 0;
+    box-shadow: none;
+}
+
+.button-qualify-pathway {
+    background: none;
+    border: none;
+    color: #fff;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+.button-qualify-pathway-text {
+    display: inline;
+}
+
+.button-qualify-pathway:hover {
+    color: #A2A2A2;
+}
+
+.button-qualify-pathway:focus {
+    outline: none;
+}
+
+.button-qualify-patway__icon {
+    margin-right: 5%;
+    color: #A2A2A2;
+}
+
+.modal-pathway-qualify__spinner {
+    margin-top: 2%;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+@media (max-width: 1050px) {
+
+    .modal-pathway-qualify {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .modal-pathway-qualify {
+        width: 95% !important;
+    }
+
+    .modal-pathway-qualify__title {
+        font-size: 2.4rem;
+    }
+
+    .modal-pathway-qualify__text {
+        font-size: 1.5rem;
+    }
+
+    .modal-pathway-qualify__start {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-qualify-pathway-text {
+        display: none;
+    }
+
+    .modal-pathway-qualify {
+        width: 95% !important;
+    }
+
+    .modal-pathway-qualify__title {
+        font-size: 2.2rem;
+    }
+
+    .modal-pathway-qualify__text {
+        font-size: 1.4rem;
+    }
+
+    .modal-pathway-qualify__start {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    .modal-pathway-qualify {
+        width: 95% !important;
+    }
+
+    .modal-pathway-qualify__title {
+        font-size: 1.7rem;
+    }
+
+    .modal-pathway-qualify__text {
+        font-size: 1.2rem;
+    }
+
+    .modal-pathway-qualify__start {
+        font-size: 20px;
+    }
+
+    .modal-pathway-qualify__textarea {
+        font-size: 1rem;
+    }
+}

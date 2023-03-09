@@ -1,0 +1,14 @@
+@import "../core/functions";
+@import "../../config/variables";
+@import "../core/mixins";
+
+@import "mixins";
+@import "polyfills";
+@import "body";
+@import "toasts-body";
+@import "toasts-animations";
+@import "animations";
+@import "toasts";
+@import "body";
+@import "core";
+@import 'inscription-pathway'

@@ -1,0 +1,91 @@
+.carousel__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.carousel__container-height-100 {
+    height: 100%;
+}
+
+.carousel__container-height-80 {
+    height: 80%;
+}
+
+.carousel__container-height-74 {
+    height: 74%;
+}
+
+.carousel__container-height-70 {
+    height: 70%;
+}
+
+.carousel__container-height-60 {
+    height: 60%;
+}
+
+.carousel__container-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel__item {
+    display: flex;
+    height: 80%;
+    flex: 0 0 40%;
+    text-align: center;
+    transform: translateZ(-100px) rotateY(20deg);
+    align-items: center;
+}
+
+.carousel__item button {
+    display: none;
+}
+
+.seleccionado {
+    transform: translateZ(-200px) rotateY(0deg);
+    height: 100% !important;
+}
+
+.seleccionado button {
+    display: inline-block;
+}
+
+.carousel__button {
+    position: absolute;
+    width: 5%;
+    height: 8%;
+    border-radius: 20px;
+    background: rgb(255, 253, 253, 0);
+    border: 1px solid #00000010;
+    color: #00000050;
+    overflow: hidden;
+    z-index: 500;
+}
+
+.carousel__button:hover {
+    background: rgba(64, 64, 64, 0.475);
+}
+
+.carousel__button:focus {
+    outline: none;
+    border: none;
+}
+
+.carousel__button svg {
+    width: 100% !important;
+    height: 100%;
+}
+
+.carousel__button-left {
+    left: 2%;
+}
+
+.carousel__button-right {
+    right: 2%;
+}

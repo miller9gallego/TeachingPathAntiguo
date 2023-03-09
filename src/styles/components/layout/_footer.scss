@@ -1,0 +1,59 @@
+.newFooter {
+    background: none !important;
+    color: #ffffff !important;
+    font-size: 13px;
+    padding: 0 !important;
+    width: auto !important;
+    border: none !important;
+}
+
+.newFooter-text {
+    border: none !important;
+    display: inline !important;
+    margin: 0;
+}
+
+.newFooter a {
+    color: #ffffff !important;
+}
+
+.newFooter a:hover {
+    text-decoration-line: underline;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto !important;
+    margin-bottom: .5%;
+}
+
+.marca {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.marca p {
+    margin: auto 0;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .5;
+    display: inline !important;
+    margin-right: 1%;
+}
+
+.marca img {
+    margin-right: 1%;
+    height: 30px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.marca__img-sofkau {
+    margin-right: 0 !important;
+    height: 32px !important;
+}

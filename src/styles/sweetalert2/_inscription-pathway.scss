@@ -1,0 +1,89 @@
+.inscription-pathway__container {
+    z-index: 2000 !important;
+}
+
+.inscription-pathway__popup {
+    width: 70% !important;
+    padding: 0 !important;
+    height: 90%;
+    border-radius: 1em !important;
+    overflow: hidden;
+}
+
+.inscription-pathway__content {
+    height: 80% !important;
+}
+
+.inscription-pathway__html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.inscription-pathway__actions {
+    display: flex;
+    margin: 0 !important;
+    height: 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: 500;
+}
+
+.swal2-timer-progress-bar-container {
+    display: none;
+}
+
+.inscription-pathway__header {
+    background: #09094790;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inscription-pathway__title {
+    color: #ffffff !important;
+    margin: 0 !important;
+}
+
+.inscription-pathway__content-header {
+    display: flex;
+    height: 15%;
+    font-size: 1.5em;
+    align-items: center;
+    color: #000;
+}
+
+.inscription-pathway__content-header b {
+    display: inline !important;
+}
+
+.inscription-pathway__content-footer {
+    display: flex;
+    height: 15%;
+    font-size: 1.5em;
+    align-items: flex-end;
+    color: #000;
+}
+
+.inscription-pathway__button {
+    border-radius: 20px !important;
+    width: 10%;
+    font-weight: 600 !important;
+    box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.43) !important;
+    -webkit-box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.43) !important;
+    -moz-box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.43) !important;
+}
+
+.inscription-pathway__button:hover {
+    background-color: #090947 !important;
+    box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.43);
+    -webkit-box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.43);
+}
+
+.inscription-pathway__button:disabled:hover {
+    background-color: rgba(9, 9, 71, 0.8) !important;
+}

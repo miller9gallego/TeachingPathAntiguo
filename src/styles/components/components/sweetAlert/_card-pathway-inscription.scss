@@ -1,0 +1,103 @@
+.card-pathway-inscription_item {
+    transition: all 150ms ease-out;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card-pathway-inscription_item:hover .deco-layer--1 {
+    -webkit-transform: translate3d(15px, 0, 0);
+    transform: translate3d(15px, 0, 0);
+}
+
+.card-pathway-inscription_item:hover .deco-layer--2 {
+    -webkit-transform: translate3d(-15px, 0, 0);
+    transform: translate3d(-15px, 0, 0);
+}
+
+.card-pathway-inscription_header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 1em 0 4em;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    height: 40%;
+    width: 100%;
+}
+
+.card-pathway-inscription_header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.card-pathway-inscription_header h4 {
+    color: #fff;
+    position: relative
+}
+
+.card-pathway-inscription_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.card-pathway-inscription_body-content {
+    display: flex;
+    line-clamp: 6;
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-pathway-inscription_body-content p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: center;
+    margin: 0;
+}
+
+.card-pathway-inscription_body-button {
+    height: 30%;
+    width: 100%;
+}
+
+.card-pathway-inscription_img {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+}
+
+.deco-layer {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.card-pathway-inscription_button {
+    width: 60%;
+}
+
+.card-pathway-inscription_body-check {
+    width: 40px !important;
+    height: 40px;
+    display: none;
+}
